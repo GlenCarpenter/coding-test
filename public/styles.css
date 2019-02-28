@@ -1,0 +1,45 @@
+/* The side navigation menu */
+body {
+  display: flex;
+}
+
+.topPanel {
+  width: 100%;
+  background-color: Sienna;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+  z-index: 2;
+}
+
+.leftpanel {
+  position: relative;
+  right: 0;
+  top: 50%;
+  width: 10em;
+}
+
+.mainPanel {
+  margin-left: 5px;
+  width: 500px;
+  height: 500px;
+}
+
+.menuItem {
+  border: 1px solid;
+}
+
+.menuItem > h5 {
+  font-size: 1em;
+}
+
+.menuItem > p {
+  font-size: .8em;
+}
+
+.mainApp {
+  display: flex;
+  margin-top: 5em;
+}
